@@ -72,7 +72,7 @@ def generate_ai_report(vitals):
         try:
             import requests
             headers = {
-                "api-subscription-key": SARVAM_API_KEY.strip(),
+                "api-subscription-key": SARVAM_API_KEY.replace(" ", ""),
                 "Content-Type": "application/json"
             }
             # Translate to Hindi
