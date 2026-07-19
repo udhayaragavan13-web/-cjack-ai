@@ -1,0 +1,67 @@
+com.cjack.ai.app-ui-util-release-0 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\0899e4b836ae84ff52ba26c270bc1026\transformed\ui-util-release\res
+com.cjack.ai.app-hilt-navigation-1.1.0-1 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\0c9fd5d849ee6f4ddef458d6a1db72c3\transformed\hilt-navigation-1.1.0\res
+com.cjack.ai.app-activity-ktx-1.8.2-2 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\11a6c2d81aef63af221c780b3b50dbdc\transformed\activity-ktx-1.8.2\res
+com.cjack.ai.app-material-release-3 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\1e7672a10677aab96dd8884a0db2cdd6\transformed\material-release\res
+com.cjack.ai.app-lifecycle-runtime-ktx-2.7.0-4 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\2275ebbe994a6999b974d52204b5e9eb\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.cjack.ai.app-activity-compose-1.8.2-5 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\270d223a39fb06bcb8ffe2828ae37ea7\transformed\activity-compose-1.8.2\res
+com.cjack.ai.app-animation-core-release-6 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\2aec94f920caeec936efc310d9a4ae43\transformed\animation-core-release\res
+com.cjack.ai.app-ui-tooling-preview-release-7 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\2c36d68033c2f3df4a53f153b965b5cd\transformed\ui-tooling-preview-release\res
+com.cjack.ai.app-emoji2-1.4.0-8 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\37a0029364070c8e26d991abbecf7f8d\transformed\emoji2-1.4.0\res
+com.cjack.ai.app-savedstate-1.2.1-9 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\3cb402e60009bca2c12197205eeb70ce\transformed\savedstate-1.2.1\res
+com.cjack.ai.app-room-runtime-2.6.1-10 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\3fc9b1e19335e6eee47cb9e8d9ba8e47\transformed\room-runtime-2.6.1\res
+com.cjack.ai.app-animation-release-11 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\46afba868930eb4243f6bd2a148e8cc1\transformed\animation-release\res
+com.cjack.ai.app-lifecycle-process-2.7.0-12 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\47ca094cf8e182a6b7a9c3b2631e8b3e\transformed\lifecycle-process-2.7.0\res
+com.cjack.ai.app-profileinstaller-1.3.0-13 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\4d91216b1b02553c4f6f4db3606eef1d\transformed\profileinstaller-1.3.0\res
+com.cjack.ai.app-savedstate-ktx-1.2.1-14 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\50039c71388692b5cc6fdf604012b992\transformed\savedstate-ktx-1.2.1\res
+com.cjack.ai.app-core-1.12.0-15 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\5047323557d1ac207b40113ee6c346c5\transformed\core-1.12.0\res
+com.cjack.ai.app-lifecycle-viewmodel-savedstate-2.7.0-16 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\53d344fbdb72c7ba16837270f271283f\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.cjack.ai.app-annotation-experimental-1.3.1-17 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\56be3e4786dd356971070e6d2877f7c9\transformed\annotation-experimental-1.3.1\res
+com.cjack.ai.app-lifecycle-runtime-2.7.0-18 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\57723c532cc83366ede4b39c7d73638b\transformed\lifecycle-runtime-2.7.0\res
+com.cjack.ai.app-foundation-release-19 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\5ad039c7a9c765890d1ec6c8b67845b6\transformed\foundation-release\res
+com.cjack.ai.app-maps-compose-4.3.0-20 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\653a9592835bba87ea90388261e16b1a\transformed\maps-compose-4.3.0\res
+com.cjack.ai.app-startup-runtime-1.1.1-21 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\6ca719e9f8c57abe9e1f7acc29d6e49c\transformed\startup-runtime-1.1.1\res
+com.cjack.ai.app-ui-graphics-release-22 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\6eae4ecc6ffc35862414bf82cb42237f\transformed\ui-graphics-release\res
+com.cjack.ai.app-lifecycle-viewmodel-2.7.0-23 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\7b0e83427c4924964c6c2ddbefc6d347\transformed\lifecycle-viewmodel-2.7.0\res
+com.cjack.ai.app-play-services-base-18.1.0-24 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\7eafb0e53d2c6b8118c5d1c0e0b76360\transformed\play-services-base-18.1.0\res
+com.cjack.ai.app-ui-release-25 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\8151bd20870090bd98d37b5283786d9b\transformed\ui-release\res
+com.cjack.ai.app-room-ktx-2.6.1-26 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\85a85fadb716d8a00b875562c9d3ac34\transformed\room-ktx-2.6.1\res
+com.cjack.ai.app-navigation-runtime-ktx-2.7.6-27 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\86b25c3bcd9273327210278375d2f691\transformed\navigation-runtime-ktx-2.7.6\res
+com.cjack.ai.app-lifecycle-livedata-core-2.7.0-28 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\8815dd8c84248be7cda45cfe03f8e87e\transformed\lifecycle-livedata-core-2.7.0\res
+com.cjack.ai.app-fragment-1.5.1-29 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\88b8a454ca6dc653e72f84084388e7bb\transformed\fragment-1.5.1\res
+com.cjack.ai.app-browser-1.4.0-30 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\8d84b377a62ca21749cb97769d242a47\transformed\browser-1.4.0\res
+com.cjack.ai.app-lifecycle-livedata-2.7.0-31 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\91ecd90149fa701b51b9f25784f86254\transformed\lifecycle-livedata-2.7.0\res
+com.cjack.ai.app-runtime-saveable-release-32 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\94da4587e8ac9fe8e6688dbbcac5fe74\transformed\runtime-saveable-release\res
+com.cjack.ai.app-runtime-release-33 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\95b8bc9beae03bdaa7b2b03c8a5b91af\transformed\runtime-release\res
+com.cjack.ai.app-lifecycle-viewmodel-compose-2.7.0-34 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\9a4c2cda8350261771e777a08379d945\transformed\lifecycle-viewmodel-compose-2.7.0\res
+com.cjack.ai.app-play-services-basement-18.1.0-35 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\9cfbf47bffb39db5aa7fd16dc58b63a8\transformed\play-services-basement-18.1.0\res
+com.cjack.ai.app-lifecycle-livedata-core-ktx-2.7.0-36 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\9d7b136d178601cf60598fddd40f5dd1\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.cjack.ai.app-navigation-common-ktx-2.7.6-37 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\a2226c03df0473d76d2fb13108fbb00b\transformed\navigation-common-ktx-2.7.6\res
+com.cjack.ai.app-ui-test-manifest-1.5.4-38 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\b20bb57c1e17223f1d61465a6fc405fd\transformed\ui-test-manifest-1.5.4\res
+com.cjack.ai.app-navigation-common-2.7.6-39 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\b2d836a84a8e8cb5e1b27affdcea7071\transformed\navigation-common-2.7.6\res
+com.cjack.ai.app-play-services-maps-18.2.0-40 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\b3057910f60827d28c73df608f527f62\transformed\play-services-maps-18.2.0\res
+com.cjack.ai.app-firebase-common-20.4.2-41 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\b5c721bd773d636c918cf244d4d42df5\transformed\firebase-common-20.4.2\res
+com.cjack.ai.app-hilt-navigation-compose-1.1.0-42 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\b71d05e5ea8471156744f6e8a4d8bbeb\transformed\hilt-navigation-compose-1.1.0\res
+com.cjack.ai.app-material-ripple-release-43 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\b9730e1bf658ccd91bdf04240e21be59\transformed\material-ripple-release\res
+com.cjack.ai.app-activity-1.8.2-44 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\be947168ad9ffaafd0b54d9d935ede17\transformed\activity-1.8.2\res
+com.cjack.ai.app-navigation-compose-2.7.6-45 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\c3556a64aaa82ed05dffbac1742068c4\transformed\navigation-compose-2.7.6\res
+com.cjack.ai.app-navigation-runtime-2.7.6-46 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\c44ddf5d610ec27bef69c4f98befa67e\transformed\navigation-runtime-2.7.6\res
+com.cjack.ai.app-material-icons-core-release-47 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\cbf5f0e3842ba006f3b8350fda8a9982\transformed\material-icons-core-release\res
+com.cjack.ai.app-customview-poolingcontainer-1.0.0-48 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\cc6b3cac8815b50de6550a9cf1b4ff65\transformed\customview-poolingcontainer-1.0.0\res
+com.cjack.ai.app-ui-geometry-release-49 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\d5267f92f862b84a2a5905e853dbbc5d\transformed\ui-geometry-release\res
+com.cjack.ai.app-foundation-layout-release-50 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\d665c94a13c8c7b76afe6775de1047ee\transformed\foundation-layout-release\res
+com.cjack.ai.app-core-runtime-2.2.0-51 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\d8dc7efbda39f1e84bc2ddce4fe0ea39\transformed\core-runtime-2.2.0\res
+com.cjack.ai.app-sqlite-framework-2.4.0-52 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\dd9763e959d3ec16c84db458dc4063f0\transformed\sqlite-framework-2.4.0\res
+com.cjack.ai.app-ui-unit-release-53 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\de5ed2f014110cefc995c3a8b7b5d149\transformed\ui-unit-release\res
+com.cjack.ai.app-ui-tooling-release-54 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\e0f204bfbd7c9bdab962a33baccdfa6f\transformed\ui-tooling-release\res
+com.cjack.ai.app-ui-tooling-data-release-55 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\e334fa481495f46ce63d5cd3ae7268df\transformed\ui-tooling-data-release\res
+com.cjack.ai.app-lifecycle-viewmodel-ktx-2.7.0-56 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\e8cdd2d17f5f39e5c0ffbfa7f209f269\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.cjack.ai.app-material3-1.1.2-57 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\eb0463ac2c07822be749f190d58ab0da\transformed\material3-1.1.2\res
+com.cjack.ai.app-core-ktx-1.12.0-58 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\ec71f5e18a7d3b7a29a4ba4e04c7c268\transformed\core-ktx-1.12.0\res
+com.cjack.ai.app-sqlite-2.4.0-59 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\ee84f386f8a2364d8bf2ab0b3b8793ea\transformed\sqlite-2.4.0\res
+com.cjack.ai.app-ui-text-release-60 C:\Users\Udhayaragavan C\.gradle\caches\transforms-3\faa89dd42a8aed930d949deb7a5edd9a\transformed\ui-text-release\res
+com.cjack.ai.app-resValues-61 C:\dcj1\app\build\generated\res\resValues\debug
+com.cjack.ai.app-packageDebugResources-62 C:\dcj1\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.cjack.ai.app-packageDebugResources-63 C:\dcj1\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.cjack.ai.app-merged_res-64 C:\dcj1\app\build\intermediates\merged_res\debug
+com.cjack.ai.app-debug-65 C:\dcj1\app\src\debug\res
+com.cjack.ai.app-main-66 C:\dcj1\app\src\main\res

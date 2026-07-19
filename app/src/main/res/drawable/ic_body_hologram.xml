@@ -1,0 +1,155 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="240dp"
+    android:viewportWidth="180"
+    android:viewportHeight="240">
+
+    <!-- 1. Background Perspective Grid (Thin and extremely subtle dark blue grid) -->
+    <path
+        android:pathData="M 0,20 L 180,20 M 0,45 L 180,45 M 0,75 L 180,75 M 0,110 L 180,110 M 0,150 L 180,150 M 0,190 L 180,190 M 0,225 L 180,225"
+        android:strokeColor="#0B1A30"
+        android:strokeWidth="0.8"/>
+    <path
+        android:pathData="M 15,0 L 15,240 M 40,0 L 40,240 M 65,0 L 65,240 M 90,0 L 90,240 M 115,0 L 115,240 M 140,0 L 140,240 M 165,0 L 165,240"
+        android:strokeColor="#0B1A30"
+        android:strokeWidth="0.8"/>
+
+    <!-- 2. Holographic Projection Conical Ray Guidelines (Cyan, low opacity glows) -->
+    <!-- Outer Cone rays -->
+    <path
+        android:pathData="M 50,225 L 15,120 L 5,90 M 130,225 L 165,120 L 175,90"
+        android:strokeColor="#2500E5FF"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.6"/>
+    <!-- Inner Cone rays -->
+    <path
+        android:pathData="M 70,225 L 45,120 L 35,90 M 110,225 L 135,120 L 145,90"
+        android:strokeColor="#2500E5FF"
+        android:strokeWidth="1.0"
+        android:strokeAlpha="0.4"/>
+    <!-- Center ray -->
+    <path
+        android:pathData="M 90,225 L 90,90"
+        android:strokeColor="#1F00E5FF"
+        android:strokeWidth="0.8"
+        android:strokeAlpha="0.4"/>
+
+    <!-- Conical Scanner Base Ring (Bright bottom projection anchor) -->
+    <path
+        android:pathData="M 50,225 A 40,8 0 1,0 130,225 A 40,8 0 1,0 50,225"
+        android:strokeColor="#A000E5FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#0D00E5FF"/>
+    
+    <!-- Conical Scanner Mid Ring -->
+    <path
+        android:pathData="M 35,175 A 55,11 0 1,0 145,175 A 55,11 0 1,0 35,175"
+        android:strokeColor="#4000E5FF"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.7"/>
+
+    <!-- Conical Scanner Top Ring (Upper boundary) -->
+    <path
+        android:pathData="M 15,120 A 75,15 0 1,0 165,120 A 75,15 0 1,0 15,120"
+        android:strokeColor="#5000E5FF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.8"/>
+
+    <!-- 3. Hologram Human Body Silhouette (Cyan/Blue double layer glow) -->
+    <!-- Layer 1: Semi-transparent blue-cyan backing fill -->
+    <path
+        android:pathData="M 90,48 C 86,48 83,51 82,56 C 78,60 65,65 50,68 C 35,71 25,72 20,74 C 17,75 17,77 20,78 C 25,79 35,80 50,82 C 65,84 78,85 80,95 C 80,110 75,135 75,145 C 75,160 76,210 78,218 C 79,221 82,221 83,218 C 84,215 86,180 88,155 C 89,148 89.5,148 90,148 C 90.5,148 91,148 92,155 C 94,180 96,215 97,218 C 98,221 101,221 102,218 C 104,210 105,160 105,145 C 105,135 100,110 100,95 C 102,85 115,84 130,82 C 145,80 155,79 160,78 C 163,77 163,75 160,74 C 155,72 145,71 130,68 C 115,65 102,60 98,56 C 97,51 94,48 90,48 Z"
+        android:strokeColor="#2000E5FF"
+        android:strokeWidth="6"
+        android:fillColor="#0E071A2E"/>
+        
+    <!-- Layer 2: Glowing Cyan silhouette line -->
+    <path
+        android:pathData="M 90,48 C 86,48 83,51 82,56 C 78,60 65,65 50,68 C 35,71 25,72 20,74 C 17,75 17,77 20,78 C 25,79 35,80 50,82 C 65,84 78,85 80,95 C 80,110 75,135 75,145 C 75,160 76,210 78,218 C 79,221 82,221 83,218 C 84,215 86,180 88,155 C 89,148 89.5,148 90,148 C 90.5,148 91,148 92,155 C 94,180 96,215 97,218 C 98,221 101,221 102,218 C 104,210 105,160 105,145 C 105,135 100,110 100,95 C 102,85 115,84 130,82 C 145,80 155,79 160,78 C 163,77 163,75 160,74 C 155,72 145,71 130,68 C 115,65 102,60 98,56 C 97,51 94,48 90,48 Z"
+        android:strokeColor="#CC00E5FF"
+        android:strokeWidth="1.6"/>
+
+    <!-- Cylinder scan Head outline -->
+    <path
+        android:pathData="M 90,32 M 90,21 A 11,11 0 1,1 90,43 A 11,11 0 1,1 90,21 Z"
+        android:strokeColor="#CC00E5FF"
+        android:strokeWidth="1.6"/>
+        
+    <!-- 4. Glowing Red Skeleton Outline (As per Shutterstock layout) -->
+    <group android:name="red_skeleton">
+        <!-- Inner Red Skull -->
+        <path
+            android:pathData="M 90,32 M 90,25 A 7,7 0 1,1 90,39 A 7,7 0 1,1 90,25 Z"
+            android:strokeColor="#FFFF3B30"
+            android:strokeWidth="1.2"
+            android:strokeAlpha="0.8"/>
+
+        <!-- Spine -->
+        <path
+            android:pathData="M 90,48 L 90,142"
+            android:strokeColor="#FFFF3B30"
+            android:strokeWidth="2.0"
+            android:strokeAlpha="0.8"/>
+            
+        <!-- Vertebral segments -->
+        <path
+            android:pathData="M 87,60 L 93,60 M 87,67 L 93,67 M 87,74 L 93,74 M 86,81 L 94,81 M 86,88 L 94,88 M 86,95 L 94,95 M 86,102 L 94,102 M 86,109 L 94,109 M 86,116 L 94,116 M 87,123 L 93,123 M 87,130 L 93,130 M 87,137 L 93,137"
+            android:strokeColor="#FFFF3B30"
+            android:strokeWidth="1.0"
+            android:strokeAlpha="0.7"/>
+
+        <!-- Rib Cage (Glowing Red) -->
+        <path
+            android:pathData="M 90,66 C 85,61 78,64 75,70 M 90,66 C 95,61 102,64 105,70"
+            android:strokeColor="#FFFF3B30"
+            android:strokeWidth="1.2"
+            android:strokeAlpha="0.8"/>
+        <path
+            android:pathData="M 90,77 C 82,72 75,75 71,83 M 90,77 C 98,72 105,75 109,83"
+            android:strokeColor="#FFFF3B30"
+            android:strokeWidth="1.2"
+            android:strokeAlpha="0.8"/>
+        <path
+            android:pathData="M 90,88 C 80,83 73,86 69,96 M 90,88 C 100,83 107,86 111,96"
+            android:strokeColor="#FFFF3B30"
+            android:strokeWidth="1.2"
+            android:strokeAlpha="0.8"/>
+        <path
+            android:pathData="M 90,99 C 80,94 73,97 69,109 M 90,99 C 100,94 107,97 111,109"
+            android:strokeColor="#FFFF3B30"
+            android:strokeWidth="1.2"
+            android:strokeAlpha="0.8"/>
+        <path
+            android:pathData="M 90,110 C 82,105 75,108 71,122 M 90,110 C 98,105 105,108 109,122"
+            android:strokeColor="#FFFF3B30"
+            android:strokeWidth="1.2"
+            android:strokeAlpha="0.8"/>
+        <path
+            android:pathData="M 90,121 C 84,116 77,119 73,135 M 90,121 C 96,116 103,119 107,135"
+            android:strokeColor="#FFFF3B30"
+            android:strokeWidth="1.2"
+            android:strokeAlpha="0.8"/>
+
+        <!-- Pelvis (Red anchor) -->
+        <path
+            android:pathData="M 80,142 C 80,136 100,136 100,142 C 100,146 93,150 90,150 C 87,150 80,146 80,142 Z"
+            android:strokeColor="#FFFF3B30"
+            android:strokeWidth="1.5"
+            android:strokeAlpha="0.8"/>
+
+        <!-- Arm Bones -->
+        <path
+            android:pathData="M 82,56 L 25,74 M 98,56 L 155,74"
+            android:strokeColor="#FFFF3B30"
+            android:strokeWidth="1.0"
+            android:strokeAlpha="0.7"/>
+
+        <!-- Leg Femurs -->
+        <path
+            android:pathData="M 83,148 L 81,180 M 81,183 L 79,216 M 97,148 L 99,180 M 99,183 L 101,216"
+            android:strokeColor="#FFFF3B30"
+            android:strokeWidth="1.2"
+            android:strokeAlpha="0.7"/>
+    </group>
+
+</vector>
