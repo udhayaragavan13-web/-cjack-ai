@@ -4,16 +4,6 @@ CJACK AI is an emergency assistant system that monitors patient vital signs in r
 
 ---
 
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|---|---|
-| 📱 Android App | Kotlin, Jetpack Compose, Hilt, Room, LiteRT / TensorFlow Lite |
-| 🖥️ Web Dashboard & Server | Python, Flask, HTML, CSS, JavaScript (Leaflet Maps) |
-| ⚙️ Hardware Firmware | C++ (Arduino App Lab) |
-
----
-
 ## 🏗️ System Overview
 
 ```mermaid
@@ -41,6 +31,16 @@ The Arduino transmits data over Serial (**9600 Baud**) as a single-line JSON str
 ```json
 {"heartRate":72,"spo2":98,"ecg":512,"force":342,"status":"NORMAL"}
 ```
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| 📱 Android App | Kotlin, Jetpack Compose, Hilt, Room, LiteRT / TensorFlow Lite |
+| 🖥️ Web Dashboard & Server | Python, Flask, HTML, CSS, JavaScript (Leaflet Maps) |
+| ⚙️ Hardware Firmware | C++ (Arduino App Lab) |
 
 ---
 
