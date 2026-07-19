@@ -32,7 +32,7 @@ state = {
 }
 
 # Configurable Sarvam AI API Configuration
-SARVAM_API_KEY = "" # Populated from local.properties if needed
+SARVAM_API_KEY = "sk_4sip5ksg_T1h44Sq ekQf7AecZSDXayK9m" # Populated from local.properties if needed
 
 def generate_ai_report(vitals):
     hr = vitals.get("heartRate", 72)
@@ -72,7 +72,7 @@ def generate_ai_report(vitals):
         try:
             import requests
             headers = {
-                "api-subscription-key": SARVAM_API_KEY,
+                "api-subscription-key": SARVAM_API_KEY.strip(),
                 "Content-Type": "application/json"
             }
             # Translate to Hindi
