@@ -67,29 +67,50 @@ def generate_ai_report(vitals):
         guidance_ta = f"இருதயம் மற்றும் ஆக்ஸிஜன் சீராக உள்ளது. மெட்ரோனோம் இசைக்கேற்ப அழுத்தத்தை தொடரவும்."
         status_label = "STABLE"
 
-    # If key is available, run through Sarvam AI for dynamic LLM translation/summary
+    # If key is available, run through the real Sarvam AI Translation API
     if SARVAM_API_KEY:
         try:
             import requests
-            headers = {"X-API-KEY": SARVAM_API_KEY}
-            payload = {
-                "model": "sarvam-chat",
-                "messages": [
-                    {"role": "user", "content": f"Summarize and translate this patient condition to Hindi and Tamil: status={status_label}, Hr={hr}, SpO2={spo2}, compression force={force}N, compression rate={rate}. Make it a short medical alert (max 40 words)."}
-                ]
+            headers = {
+                "api-subscription-key": SARVAM_API_KEY,
+                "Content-Type": "application/json"
             }
-            res = requests.post("https://api.sarvam.ai/chat/completions", json=payload, headers=headers, timeout=4)
-            if res.status_code == 200:
-                data = res.json()
-                content_res = data["choices"][0]["message"]["content"]
+            # Translate to Hindi
+            hi_payload = {
+                "input": guidance_en,
+                "source_language_code": "en-IN",
+                "target_language_code": "hi-IN",
+                "model": "sarvam-translate:v1"
+            }
+            hi_res = requests.post("https://api.sarvam.ai/translate", json=hi_payload, headers=headers, timeout=4)
+            
+            # Translate to Tamil
+            ta_payload = {
+                "input": guidance_en,
+                "source_language_code": "en-IN",
+                "target_language_code": "ta-IN",
+                "model": "sarvam-translate:v1"
+            }
+            ta_res = requests.post("https://api.sarvam.ai/translate", json=ta_payload, headers=headers, timeout=4)
+            
+            if hi_res.status_code == 200 and ta_res.status_code == 200:
+                hi_text = hi_res.json().get("translated_text", guidance_hi)
+                ta_text = ta_res.json().get("translated_text", guidance_ta)
+                
+                summary_final = f"Sarvam AI Real-Time Analysis: {summary_en} Vitals verified at heart rate {hr} bpm, oxygen saturation {spo2}%. CPR speed is {rate} cpm with pressure force {force} N."
+                guidance_final = (
+                    f"English: {guidance_en} (HR: {hr} BPM, SpO2: {spo2}%, CPR Force: {force}N, CPR Rate: {rate} CPM)\n\n"
+                    f"Hindi (Sarvam AI): {hi_text} (धड़कन: {hr} बीपीएम, ऑक्सीजन और संपीडन बल: {force} न्यूटन)\n\n"
+                    f"Tamil (Sarvam AI): {ta_text} (இதயம்: {hr} BPM, ஆக்ஸிஜன்: {spo2}%, அழுத்தம்: {force}N)"
+                )
                 return {
-                    "summary": f"Sarvam AI Analysis: {summary_en}",
-                    "guidance": content_res
+                    "summary": summary_final,
+                    "guidance": guidance_final
                 }
         except Exception as e:
-            print(f"Sarvam API error, calling fallback rules: {e}")
+            print(f"Sarvam API translation error, calling fallback rules: {e}")
 
-    # Dynamic summaries with vital status inclusion
+    # Dynamic fallback summaries when API key is empty or call fails
     summary_final = f"Sarvam AI Dynamic Summary: {summary_en} Vitals verified at heart rate {hr} bpm, oxygen saturation {spo2}%. CPR speed is {rate} cpm with pressure force {force} N."
     
     guidance_final = (
