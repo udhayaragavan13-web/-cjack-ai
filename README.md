@@ -4,6 +4,16 @@ CJACK AI is an emergency assistant system that monitors patient vital signs in r
 
 ---
 
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| 📱 Android App | Kotlin, Jetpack Compose, Hilt, Room, LiteRT / TensorFlow Lite |
+| 🖥️ Web Dashboard & Server | Python, Flask, HTML, CSS, JavaScript (Leaflet Maps) |
+| ⚙️ Hardware Firmware | C++ (Arduino App Lab) |
+
+---
+
 ## 🏗️ System Overview
 
 ```mermaid
