@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Android build outputs
+app/build/
+build/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+local.properties
+.gradle/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Firebase
+google-services.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+.env
+*.env
+
+# Logs
+*.log
